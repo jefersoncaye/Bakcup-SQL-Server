@@ -135,7 +135,6 @@ def reinicia_tabela():
 
 
 def verifica_horario():
-    print(hora_atual(), '>=', hr_inicio_bkp, 'and' ,hora_atual() ,'<=' ,hr_final_bkp)
     if int(hora_atual()) >= int(hr_inicio_bkp) and int(hora_atual()) <= int(hr_final_bkp):
         return 0
     else:
